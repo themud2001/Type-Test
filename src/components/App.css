@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    margin: 20px auto;
+    width: 80%;
+    height: auto;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container .words-box {
+    background-color: #F3F3F3;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: auto;
+    width: 80%;
+}
+
+.container .words-box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 10px;
+    font-size: 22px;
+}
+
+.container .words-box ul li {
+    padding: 3px 10px;
+}
+
+.container .words-box ul li.active {
+    background-color: #CCC;
+}
+
+.container .input-container {
+    display: flex;
+    column-gap: 20px;
+    position: relative;
+    margin-top: 10px;
+    width: 40%;
+    justify-content: center;
+}
+
+.container .input-container .start {
+    font-size: 22px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container .input-container input {
+    position: relative;
+    font-size: 26px;
+    width: 100%;
+    min-width: 200px;
+    padding: 0px 5px;
+}
+
+.container .input-container .timer {
+    font-size: 22px;
+}
+
+.container .input-container .restart {
+    font-size: 26px;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.container .score {
+    background-color: #F3F3F3;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 25px 60px;
+    margin-top: 25px;
+}
+
+.container .score h1 {
+    font-size: 22px;
+    text-align: center;
+}
+
+.container .score .wpm span {
+    color: #00F;
+}
+
+.container .score .correct span {
+    color: #0C0;
+}
+
+.container .score .wrong span {
+    color: #F00;
+}
+
+.container .score .accuracy span {
+    color: #0C0;
+}
